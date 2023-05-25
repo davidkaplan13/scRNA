@@ -3,7 +3,7 @@ library(Seurat)
 library(harmony)
 library(ggplot2)
 
-setwd('/Users/davidkaplan/Desktop/neuroblastoma_data/kildisuite')
+setwd('/project/home22/dk1222/neuroblastoma_analysis')
 gosh <- readRDS("nb_GOSH.rds")
 ag <- readRDS("adr_all.rds")
 
